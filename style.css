@@ -43,16 +43,25 @@ header{
     padding-right: 1.75rem;
     font-size: 1rem;
 }
+.nav-section ul li a:hover{
+    color:#F7E93F;
+    transition: all 0.3s ease
+}
 .nav-section .nav-btn{
     font-size: 1rem;
     background: linear-gradient(to right, #F7E93F, #FB09B4, #9100F8);
     color: #fff;
     border: none;
     padding:0.75rem 1rem;
-    border-radius: 10000px;  
+    border-radius: 10000px;
+    cursor: pointer;  
 }
 .nav-section .nav-btn i{
     padding-left: 8px;
+}
+.nav-section .nav-btn:hover{
+    color: #1A0B2E;
+    transition: 2s;
 }
 /* Banner Section */
 .banner-section {
