@@ -152,3 +152,41 @@ header{
     background-color: #04AA6D;
   color: white;
 }
+/* About Section */
+.about-section{
+    background-color:#1A0B2E ;
+}
+.about-text{
+    text-align: center;
+    padding-top: 50px;
+}
+.about-text h2{
+    font-size: 3rem;
+    color: #fff;
+}
+.about-text p{
+    font-size: 1rem;
+    color: #fff;
+    line-height: 2rem;
+}
+.about-text span {
+    line-height: 80px;
+}
+.achievements{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 60px 0 100px 0;
+    gap: 20px;
+    text-align: center;
+    align-items: center;
+}
+.achievements h2{
+    font-size: 3rem;
+    color: #00FF88;
+}
+.achievements p{
+    font-size: 1rem;
+    color: #fff;
+    text-transform: uppercase;
+    padding-top: 8px;
+}
