@@ -345,3 +345,46 @@ iframe{
     transition: all 0.3s ease;
     border-color: #FB09B4;
 }
+/* Footer Scetion */
+.footer-container{
+    background: url(./assets/footer-bg.png);
+    width: 100%;
+    height:375px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+.footer-container h1{
+    font-size: 5rem;
+    color: #fff;
+}
+.footer-container h1 span{
+    background: linear-gradient(to top, #F7E93F, #FB09B4, #9100F8);
+    background-clip: text;             
+    -webkit-background-clip: text;     
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+.footer-icon{
+    display: flex;
+    gap: 15px;
+    color: #fff;
+    cursor: pointer;
+}
+.footer-icon i{
+  margin-right: 4px;
+  font-size: 1rem;
+}
+.footer-icon i:hover{
+   color: #ead3d3;
+}
+.cpy-right{
+    color: #b1aaaa;
+    font-size: 1rem;
+}
