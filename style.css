@@ -63,9 +63,12 @@ header{
     color: #1A0B2E;
     transition: 2s;
 }
+.menu-icon{
+    display: none;
+}
 /* Banner Section */
 .banner-section {
-    width: 100%;
+    max-width: 100%;
     height: 100vh;
     background: url(./assets/hero-bg.png);
     background-repeat: no-repeat;
@@ -80,7 +83,6 @@ header{
 }
 .hero-center{
     position: relative;
-    /* margin-top: -100px; */
 } 
 .circle-img{
     width:325px;
@@ -169,7 +171,7 @@ header{
     color: #fff;
     line-height: 2rem;
 }
-.about-text span {
+.about-text  span {
     line-height: 80px;
 }
 .achievements{
@@ -255,7 +257,7 @@ header{
     padding-bottom: 25px;
 }
 iframe{
-    max-width: 379px;
+    max-width: 100%;
     height: 215px;
     border-radius: 20px 20px 0 0;
 }
@@ -371,12 +373,13 @@ iframe{
     color: transparent;
     -webkit-text-fill-color: transparent;
 }
-.footer-icon{
-    display: flex;
-    gap: 15px;
+ .footer-icon{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
     color: #fff;
     cursor: pointer;
-}
+    
+ }
 .footer-icon i{
   margin-right: 4px;
   font-size: 1rem;
