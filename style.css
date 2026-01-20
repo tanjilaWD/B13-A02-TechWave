@@ -85,7 +85,7 @@ header{
     position: relative;
 } 
 .circle-img{
-    width:325px;
+    width:100%;
     display: block;
 }
 .microphone-img{
@@ -106,6 +106,7 @@ header{
     padding: 8px 16px;
     border-radius: 1000px;
     box-shadow: 0px 3px 27px 0px rgba(0, 255, 136, 0.5);
+    animation: pulse 1.5s infinite;
 }
 .banner-text h2 {
     font-size: 64px;
@@ -390,4 +391,19 @@ iframe{
 .cpy-right{
     color: #b1aaaa;
     font-size: 1rem;
+}
+/* badge Animation */
+@keyframes pulse{
+  0%{
+    transform: scale(1);
+    opacity: 1;
+  }
+  50%{
+    transform: scale(1.1);
+    opacity: 0.7;
+  }
+  100%{
+    transform: scale(1);
+    opacity: 1;
+  }
 }
